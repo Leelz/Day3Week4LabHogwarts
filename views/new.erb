@@ -1,0 +1,32 @@
+<h1>New Student</h1>
+<form action="/students" method="post">
+  <p>
+    <label>
+      First name: 
+      <input type="text" name="first_name" />   <!-- same is in our pizza.rb -->
+    </label>
+  </p>
+  <p>
+    <label>
+      Second name: 
+      <input type="text" name="second_name" />   
+    </label>
+  </p>
+  <p>
+  <label>House:
+    <select name="house"> <!-- inputs the topping that was selected in here -->
+      <option value="Hufflepuff">Hufflepuff</option>
+      <option value="Gryffindor">Gryffindor</option>
+      <option value="Slytherin">Slytherin</option>
+      <option value="Ravenclaw">Ravenclaw</option>
+    </select>
+    </label>
+  </p>
+  <p>
+    <label>
+      Age: 
+      <input type="number" name="age" />   
+    </label>
+  </p>
+  <input type="submit" value="welcome to your new house" />
+</form>
